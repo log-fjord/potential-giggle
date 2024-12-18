@@ -1,8 +1,8 @@
 var buildUrl = "Build";
-var loaderUrl = buildUrl + "/SlopeBuild.loader.js";
+var loaderUrl = buildUrl + "/slopebuild.js";
 var config = {
   dataUrl: buildUrl + "/SlopeBuild.data.gz",
-  frameworkUrl: buildUrl + "/SlopeBuild.framework.js.gz",
+  frameworkUrl: buildUrl + "/slopeframe.js.gz",
   codeUrl: buildUrl + "/SlopeBuild.wasm.gz",
   streamingAssetsUrl: "StreamingAssets",
   companyName: "Y8",
